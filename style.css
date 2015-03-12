@@ -2,4 +2,162 @@
   text-transform: uppercase;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+/* ----------- HOMEPAGE BANNER/SLIDESHOW ----------- */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  line-height: 1;
+  width: 100%;
+}
+
+.carousel .item {
+  max-height: 500px;
+}
+
+.carousel .carousel-control {
+  height: 100%;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.carousel-caption {
+  font-family: "Lato",sans-serif;
+  left: auto;
+  right: 10%;
+  text-align: right;
+  width: 35%;
+}
+
+.carousel-caption h3 {
+  font-size: 2.25em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.carousel-caption .larger {
+  font-size: 1.25em;
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.learn-more {
+  background: none repeat scroll 0 0 #f0be0f;
+  color: #fff;
+  display: inline-block;
+  margin-top: 1em;
+  overflow: hidden;
+  padding-left: 10px;
+  text-shadow: none;
+}
+
+.learn-more:hover {
+  background: #e1b00f;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-arrow {
+  background: rgba(0, 0, 0, 0.25);
+  color: #f0be0f;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 6px;
+}
+
+/* ----------- TRANSLATIONAL SCIENCE ROW ----------- */
+.trans-row {
+  background: url("../img/halftone.jpg") repeat scroll 0 0 #eeeeee;
+  font-family: "lato";
+  font-weight: 100;
+  text-align: center;
+  color: #465482;
+  border-bottom: .5em solid #465482;
+}
+
+.trans-row p {
+  line-height: 1.75;
+}
+
+.trans-row > .row {
+  border-bottom: .25em solid #f7bc2d;
+}
+
+.t-box > h3, .t-bold {
+  font-weight: 700;
+}
+
+.t-box {
+  border-right: 2px solid #465482;
+  margin-bottom: 1em;
+}
+
+.t-box:last-child {
+  border-right: none;
+}
+
+.t-box > p {
+  font-size: 1.25em;
+}
+
+.t-box > img {
+  max-height: 10em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* ----------- MEDIA QUERIES ----------- */
+@media screen and (max-width: 900px) {
+  .t-box {
+    border-right: none;
+  }
+
+  .t-box:last-child {
+    border-right: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel-indicators {
+    bottom: -8px;
+  }
+
+  .carousel-caption {
+    font-family: "Lato",sans-serif;
+    left: auto;
+    right: auto;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    background: #ddd;
+    top: 0;
+    padding: 1em;
+    z-index: 0;
+  }
+
+  .carousel-inner {
+    overflow: inherit;
+  }
+
+  .item > .container {
+    padding: 0;
+  }
+
+  .carousel .item {
+    max-height: inherit;
+  }
+
+  .t-box {
+    border-right: none;
+    border-bottom: 2px solid #465482;
+    padding-bottom: 1em;
+  }
+  .t-box:last-child {
+    border-right: none;
+    border-bottom: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
