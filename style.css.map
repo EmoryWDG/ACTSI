@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEE,kBAAG;EACF,cAAc,EAAE,SAAS",
+"sources": ["_breadcrumbs.scss"],
+"names": [],
+"file": "style.css"
+}
