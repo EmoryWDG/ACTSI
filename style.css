@@ -141,12 +141,13 @@ body {
     overflow: inherit;
   }
 
-  .item > .container {
-    padding: 0;
-  }
-
+  .item
   .carousel .item {
     max-height: inherit;
+  }
+  .item
+  .carousel .item > .container {
+    padding: 0;
   }
 
   .t-box {
