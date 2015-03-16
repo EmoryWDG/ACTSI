@@ -1,3 +1,17 @@
+.navbar {
+  margin-bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 2;
+  border: none;
+  border-radius: 0;
+}
+.navbar ul li {
+  text-transform: uppercase;
+}
+.navbar ul li a {
+  color: #222222;
+}
+
 #breadcrumbs ul li {
   text-transform: uppercase;
 }
@@ -10,6 +24,11 @@ body {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   line-height: 1;
   width: 100%;
+}
+
+.carousel {
+  margin-top: -52px;
+  z-index: 1;
 }
 
 .carousel .item {
@@ -159,6 +178,36 @@ body {
     border-right: none;
     border-bottom: none;
   }
+}
+.gsc-control-cse #gsc-search-box ul li {
+  text-transform: uppercase;
+}
+.gsc-control-cse table.gsc-branding {
+  display: none !important;
+}
+.gsc-control-cse table.gsc-search-box td.gsc-input {
+  padding-right: 0px;
+}
+.gsc-control-cse input#gsc-i-id1 {
+  padding: 9px;
+  width: 100%;
+}
+.gsc-control-cse input.gsc-search-button {
+  background-color: #222222;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px;
+  margin-left: 0px;
+}
+.gsc-control-cse .gsc-result .gsc-table-result {
+  margin-bottom: 10px;
+  border-bottom: solid 1px #f1f1f1;
+}
+.gsc-control-cse .gsc-result .gsc-table-result .gsc-url-bottom {
+  padding-bottom: 10px;
+}
+.gsc-control-cse .gsc-cursor-box {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

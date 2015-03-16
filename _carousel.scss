@@ -10,6 +10,10 @@ body {
   width: 100%;
 }
 
+.carousel {
+  margin-top: -52px;
+  z-index: 1; 
+}
 .carousel .item {
   max-height: 500px;
 }

@@ -5,6 +5,10 @@ $mid_blue: #455284;
 $light_blue: #21a4dd;
 $light_gray: #f1f1f1;
 $dark_gray: #222222;
+$white: #FFFFFF;
+$border: solid 1px $light_gray;
 
+@import 'navigation';
 @import 'breadcrumbs';
 @import 'carousel';
+@import 'search-results';
