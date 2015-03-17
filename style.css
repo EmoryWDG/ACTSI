@@ -214,4 +214,23 @@ body {
   text-align: center;
 }
 
+#news-article .media-left .discovery {
+  color: #FFFFFF;
+  background-color: #f4bd16;
+  padding: 30px;
+  margin-top: 26px;
+}
+#news-article .media-left .training {
+  color: #FFFFFF;
+  background-color: #455284;
+  padding: 30px;
+  margin-top: 26px;
+}
+#news-article .media-left .community {
+  color: #FFFFFF;
+  background-color: #455284;
+  padding: 30px;
+  margin-top: 26px;
+}
+
 /*# sourceMappingURL=style.css.map */
