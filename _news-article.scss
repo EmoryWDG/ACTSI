@@ -1,0 +1,22 @@
+#news-article {
+	.media-left {
+		.discovery {
+			color: $white;
+  			background-color: $yellow;
+  			padding: 30px;
+  			margin-top: 26px;
+		}
+		.training {
+			color: $white;
+  			background-color: #455284;
+  			padding: 30px;
+  			margin-top: 26px;
+		}
+		.community {
+			color: $white;
+  			background-color: #455284;
+  			padding: 30px;
+  			margin-top: 26px;
+		}
+	}
+}
