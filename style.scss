@@ -8,6 +8,9 @@ $dark_gray: #222222;
 $white: #FFFFFF;
 $border: solid 1px $light_gray;
 
+body {
+	font-family: 'Lato', sans-serif !important;
+}
 @import 'navigation';
 @import 'breadcrumbs';
 @import 'carousel';
