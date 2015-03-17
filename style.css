@@ -214,6 +214,24 @@ body {
   text-align: center;
 }
 
+.news-row {
+  background: url("../img/halftone.jpg") repeat scroll 0 0 #eeeeee;
+  font-family: "lato";
+  font-weight: 100;
+  text-align: left;
+  color: #465482;
+  border-bottom: .5em solid #465482;
+}
+
+.news-row p {
+  line-height: 1.75;
+}
+
+.news-row > .row {
+  border-bottom: .25em solid #f7bc2d;
+  padding-bottom: 30px;
+}
+
 #news-article .media-left .discovery {
   color: #FFFFFF;
   background-color: #f4bd16;
@@ -231,6 +249,19 @@ body {
   background-color: #455284;
   padding: 30px;
   margin-top: 26px;
+}
+#news-article .media-body {
+  width: inherit;
+}
+#news-article .media-body .figure {
+  float: left;
+  margin: 7px 20px 0 0;
+}
+#news-article .media-body .figure figcaption {
+  text-align: center;
+}
+#news-article .media-body .linktext {
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */

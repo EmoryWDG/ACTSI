@@ -1,4 +1,23 @@
+.news-row {
+  background: url("../img/halftone.jpg") repeat scroll 0 0 #eeeeee;
+  font-family: "lato";
+  font-weight: 100;
+  text-align: left;
+  color: #465482;
+  border-bottom: .5em solid #465482;
+}
+
+.news-row p {
+  line-height: 1.75;
+}
+
+.news-row > .row {
+  border-bottom: .25em solid #f7bc2d;
+  padding-bottom: 30px;
+}
+
 #news-article {
+
 	.media-left {
 		.discovery {
 			color: $white;
@@ -17,6 +36,22 @@
   			background-color: #455284;
   			padding: 30px;
   			margin-top: 26px;
+		}
+	}
+	.media-body {
+		width: inherit;
+		
+		.figure{
+			float:left;
+			margin: 7px 20px 0 0;
+
+			figcaption {
+				text-align: center;
+			}
+		}
+
+		.linktext {
+			font-weight: 400;
 		}
 	}
 }
