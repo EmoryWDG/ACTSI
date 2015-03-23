@@ -18,6 +18,7 @@ body {
 
 #breadcrumbs ul li {
   text-transform: uppercase;
+  display: inline-block;
 }
 
 body {
