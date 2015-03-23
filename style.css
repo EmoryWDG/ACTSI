@@ -214,10 +214,10 @@ body {
   text-align: center;
 }
 
-<<<<<<< HEAD
 .profile-picture {
   background-color: #f4bd16;
-=======
+}
+
 .news-row {
   background: url("../img/halftone.jpg") repeat scroll 0 0 #eeeeee;
   font-family: "lato";
@@ -266,7 +266,6 @@ body {
 }
 #news-article .media-body .linktext {
   font-weight: 400;
->>>>>>> origin/master
 }
 
 /*# sourceMappingURL=style.css.map */
