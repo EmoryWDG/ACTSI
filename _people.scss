@@ -1,3 +1,52 @@
-.profile-picture {
-	background-color: $yellow;
+.people-group {
+	.row {
+		margin-bottom: 2em;
+		background-color: $white;
+	}
+	h3 {
+		margin-top: 0px;
+	}
+	.profile-picture {
+		background-color: $yellow;
+		padding: 1em;
+		color: $dark_gray;
+		font-weight: 300;
+		figure {
+			text-align: center;
+			img {
+
+			}
+		}
+		.contact-icon {
+			margin-right: .5em;
+		}
+		.picture_circle {
+			width: 175px;
+			height: 175px;
+			border-radius: 150px;
+			-webkit-border-radius: 150px;
+			-moz-border-radius: 150px;
+			background-size: cover !important;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.phone, .email {
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			line-height: 1.75em;
+			font-size: 1.2em;
+			a {
+				color: $dark_gray;
+			}
+		}
+	}
+	.profile-bio {
+		padding: 1em;
+		.external {
+			padding-top: .5em;
+		}
+	}
+
+
 }
