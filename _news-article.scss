@@ -1,7 +1,7 @@
 .news-row {
   background: url("../img/halftone.jpg") repeat scroll 0 0 #eeeeee;
   font-family: "lato";
-  font-weight: 100;
+  font-weight: 200;
   text-align: left;
   color: #465482;
   border-bottom: .5em solid #465482;
@@ -52,6 +52,12 @@
 
 		.linktext {
 			font-weight: 400;
+			background-color: orange;
+  			border-radius: 0px;
 		}
+	}
+
+	.link-button {
+
 	}
 }
