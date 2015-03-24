@@ -1,7 +1,7 @@
 $yellow: #f4bd16;
 $dark_yellow: #c29306;
 $dark_blue: #455284;
-$mid_blue: #455284;
+$mid_blue: #21a3dd;
 $light_blue: #21a4dd;
 $light_gray: #f1f1f1;
 $dark_gray: #222222;
@@ -11,6 +11,7 @@ $border: solid 1px $light_gray;
 body {
 	font-family: 'Lato', sans-serif !important;
 	font-size: 16px;
+	overflow-x: hidden;
 }
 main {
 	background-color: $light_gray;
@@ -35,3 +36,5 @@ main {
 @import 'search-results';
 @import 'people';
 @import 'news-article';
+@import 'footer-hat';
+@import 'trans-row';
