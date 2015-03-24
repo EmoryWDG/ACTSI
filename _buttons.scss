@@ -1,0 +1,80 @@
+/* ----------- ICON BUTTON ROW ----------- */
+
+.button-row
+{
+    width: 100%;
+    background-color: #000000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button-row li {
+  float: left;
+  margin: 0;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.button-link {
+  color: #fff;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 96%;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.discovery-button {
+  background-color: #f4bd16;
+}
+.training-button {
+  background-color: #178fd8;
+}
+.community-button {
+  background-color: #455284;
+}
+
+.fullwidth {
+    width: 100% !important;
+}
+
+.button-link:hover {
+  opacity: 0.95;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-row > li:first-child > .button-link {
+  width: 99%;
+  float: left;
+}
+
+.button-row > li:last-child > .button-link {
+    width: 99%;
+  float: right;
+}
+
+.button-row > li:only-child > .button-link {
+  width: 100%;
+}
+
+.icon > .fa {
+  font-size: 4em;
+}
+
+.icon {
+  display: block;
+  height: 60px;
+}
+
+.icon > img {
+  display: inline-block;
+  max-height: 90%;
+}
+
+.words {
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
