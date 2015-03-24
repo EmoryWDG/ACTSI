@@ -1,6 +1,7 @@
 body {
   font-family: 'Lato', sans-serif !important;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 main {
@@ -58,19 +59,10 @@ main {
   padding: 0px 5px;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 /* ----------- HOMEPAGE BANNER/SLIDESHOW ----------- */
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   line-height: 1;
   width: 100%;
-}
-
-.carousel {
-  margin-top: -52px;
-  z-index: 1;
 }
 
 .carousel .item {
@@ -129,57 +121,7 @@ body {
   padding: 6px;
 }
 
-/* ----------- TRANSLATIONAL SCIENCE ROW ----------- */
-.trans-row {
-  background: url("../img/halftone.jpg") repeat scroll 0 0 #eeeeee;
-  font-family: "lato";
-  font-weight: 100;
-  text-align: center;
-  color: #465482;
-  border-bottom: .5em solid #465482;
-}
-
-.trans-row p {
-  line-height: 1.75;
-}
-
-.trans-row > .row {
-  border-bottom: .25em solid #f7bc2d;
-}
-
-.t-box > h3, .t-bold {
-  font-weight: 700;
-}
-
-.t-box {
-  border-right: 2px solid #465482;
-  margin-bottom: 1em;
-}
-
-.t-box:last-child {
-  border-right: none;
-}
-
-.t-box > p {
-  font-size: 1.25em;
-}
-
-.t-box > img {
-  max-height: 10em;
-  display: inline-block;
-  vertical-align: middle;
-}
-
 /* ----------- MEDIA QUERIES ----------- */
-@media screen and (max-width: 900px) {
-  .t-box {
-    border-right: none;
-  }
-
-  .t-box:last-child {
-    border-right: none;
-  }
-}
 @media screen and (max-width: 768px) {
   .carousel-indicators {
     bottom: -8px;
@@ -202,23 +144,12 @@ body {
     overflow: inherit;
   }
 
-  .item
-  .carousel .item {
-    max-height: inherit;
-  }
-  .item
-  .carousel .item > .container {
+  .item > .container {
     padding: 0;
   }
 
-  .t-box {
-    border-right: none;
-    border-bottom: 2px solid #465482;
-    padding-bottom: 1em;
-  }
-  .t-box:last-child {
-    border-right: none;
-    border-bottom: none;
+  .carousel .item {
+    max-height: inherit;
   }
 }
 .gsc-control-cse #gsc-search-box ul li {
@@ -324,7 +255,7 @@ body {
 }
 #news-article .media-left .training {
   color: #FFFFFF;
-  background-color: #455284;
+  background-color: #21a3dd;
   padding: 30px;
   margin-top: 26px;
 }
@@ -348,6 +279,161 @@ body {
   font-weight: 400;
   background-color: orange;
   border-radius: 0px;
+}
+
+#footer-hat-new {
+  padding: 23px;
+  background-color: #455284;
+  color: white;
+  text-align: center;
+}
+#footer-hat-new .col-sm-6 {
+  border-left: #f4bd16 3px solid;
+  border-right: #f4bd16 3px solid;
+}
+
+/* ----------- TRANSLATIONAL SCIENCE ROW ----------- */
+.trans-row {
+  background: url("../img/halftone.jpg") repeat scroll 0 0 #eeeeee;
+  font-family: "lato";
+  font-weight: 100;
+  text-align: center;
+  color: #465482;
+  border-bottom: .5em solid #465482;
+}
+
+.trans-row p {
+  line-height: 1.75;
+}
+
+.trans-row > .row {
+  border-bottom: .25em solid #f7bc2d;
+}
+
+.t-box > h3, .t-bold {
+  font-weight: 700;
+}
+
+.t-box {
+  border-right: 2px solid #465482;
+  margin-bottom: 1em;
+}
+
+.t-box:last-child {
+  border-right: none;
+}
+
+.t-box > p {
+  font-size: 1.25em;
+}
+
+.t-box > img {
+  max-height: 10em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* ----------- MEDIA QUERIES ----------- */
+@media screen and (max-width: 900px) {
+  .t-box {
+    border-right: none;
+  }
+
+  .t-box:last-child {
+    border-right: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .t-box {
+    border-right: none;
+    border-bottom: 2px solid #465482;
+    padding-bottom: 1em;
+  }
+
+  .t-box:last-child {
+    border-right: none;
+    border-bottom: none;
+  }
+}
+/* ----------- ICON BUTTON ROW ----------- */
+.button-row {
+  width: 100%;
+  background-color: #000000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button-row li {
+  float: left;
+  margin: 0;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.button-link {
+  color: #fff;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 96%;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.discovery-button {
+  background-color: #f4bd16;
+}
+
+.training-button {
+  background-color: #178fd8;
+}
+
+.community-button {
+  background-color: #455284;
+}
+
+.fullwidth {
+  width: 100% !important;
+}
+
+.button-link:hover {
+  opacity: 0.95;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-row > li:first-child > .button-link {
+  width: 99%;
+  float: left;
+}
+
+.button-row > li:last-child > .button-link {
+  width: 99%;
+  float: right;
+}
+
+.button-row > li:only-child > .button-link {
+  width: 100%;
+}
+
+.icon > .fa {
+  font-size: 4em;
+}
+
+.icon {
+  display: block;
+  height: 60px;
+}
+
+.icon > img {
+  display: inline-block;
+  max-height: 90%;
+}
+
+.words {
+  font-size: 0.9em;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
