@@ -1,0 +1,40 @@
+
+.partners.row {
+	-moz-column-width: 13em;
+	-webkit-column-width: 11em;
+	-moz-column-gap: 1em;
+	-webkit-column-gap:1em; 
+
+	.item {
+		display: inline-block;
+		padding:  .25rem;
+		width:  100%; 
+	}
+
+	.well {
+		position:relative;
+		display: block;
+	}
+	padding: 0em .5em 0em .5em;
+
+	.partner_logo {
+		img {
+			width: 100%;
+			margin-right: 3em;
+			margin-bottom: 1em;
+		}
+	}
+	.partner_description {
+		font-size: .8em;
+	}
+	h4 {
+		border-top: solid 1px $mid_gray;
+		border-bottom: solid 1px $mid_gray;
+		padding: 1em 0em;
+		text-align: center;
+		line-height: 1.5em;
+		font-size: .9em;
+	}
+}
+
+

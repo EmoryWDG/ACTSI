@@ -1,0 +1,256 @@
+body {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+main {
+  background-color: #f1f1f1;
+}
+
+.btn-primary {
+  background-color: #455284;
+  color: #FFFFFF;
+}
+
+.btn-secondary {
+  background-color: #f4bd16;
+  color: #FFFFFF;
+}
+
+.btn-tertiary {
+  background-color: #f1f1f1;
+  color: #222222;
+}
+
+#news-article {
+  margin-bottom: 40px;
+}
+#news-article .media-left .discovery {
+  color: #FFFFFF;
+  background-color: #f4bd16;
+  padding: 30px;
+  margin-top: 26px;
+}
+#news-article .media-left .training {
+  color: #FFFFFF;
+  background-color: #21a3dd;
+  padding: 30px;
+  margin-top: 26px;
+}
+#news-article .media-left .community {
+  color: #FFFFFF;
+  background-color: #455284;
+  padding: 30px;
+  margin-top: 26px;
+}
+#news-article .media-body {
+  width: inherit;
+}
+#news-article .media-body .figure {
+  float: left;
+  margin: 7px 20px 0 0;
+}
+#news-article .media-body .figure figcaption {
+  text-align: center;
+  font-size: .8em;
+  font-style: italic;
+}
+#news-article .media-body .linktext {
+  font-weight: 400;
+  background-color: orange;
+  border-radius: 0px;
+}
+
+/* ARTICLE PAGE */
+.news-row {
+  background-color: #eeeeee;
+  font-family: "lato";
+  font-weight: 200;
+  text-align: left;
+  color: #465482;
+}
+
+.news-row p {
+  line-height: 1.4;
+}
+
+.news-row .news-title {
+  text-align: center;
+  font-size: 1.8em;
+  color: #FFFFFF;
+}
+
+#footer-hat-new {
+  padding: 23px;
+  background-color: #455284;
+  color: #FFFFFF;
+  text-align: center;
+}
+#footer-hat-new .col-sm-6 {
+  border-left: #f4bd16 3px solid;
+  border-right: #f4bd16 3px solid;
+}
+#footer-hat-new .footer-logo {
+  Padding: 10px;
+}
+
+.list {
+  font-family: sans-serif;
+  width: 100%;
+}
+.list .date {
+  min-width: 130px;
+}
+
+td {
+  padding: 10px;
+  border: solid 1px #eee;
+}
+
+tr:nth-child(even) {
+  background: #CCC;
+}
+
+tr:nth-child(odd) {
+  background: #FFF;
+}
+
+input {
+  border: solid 1px #ccc;
+  padding: 7px 14px;
+  margin-bottom: 10px;
+}
+input:focus {
+  outline: none;
+  border-color: #aaa;
+}
+
+input:focus {
+  outline: none;
+  border-color: #aaa;
+}
+
+.sort {
+  padding: 8px 30px;
+  border: none;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background-color: #28a8e0;
+}
+.sort:hover {
+  text-decoration: none;
+  background-color: #1b8aba;
+}
+.sort:focus {
+  outline: none;
+}
+.sort:after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content: "";
+  position: relative;
+  top: -10px;
+  right: -5px;
+}
+.sort asc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content: "";
+  position: relative;
+  top: 4px;
+  right: -5px;
+}
+.sort desc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  content: "";
+  position: relative;
+  top: -4px;
+  right: -5px;
+}
+
+.pagination li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.discovery {
+  background-color: #f4bd16;
+}
+
+.training {
+  background-color: #21a3dd;
+}
+
+.community {
+  background-color: #455284;
+}
+
+.hidden-text {
+  display: none;
+}
+
+.news-row {
+  background-color: #465284;
+  font-family: "lato";
+  font-weight: 200;
+  text-align: left;
+  color: #465482;
+}
+.news-row .learn-more-blue {
+  background: none repeat scroll 0 0 #21a3dd;
+  color: #fff;
+  display: inline-block;
+  margin-top: 1em;
+  overflow: hidden;
+  padding-left: 10px;
+  text-shadow: none;
+}
+.news-row .learn-more-blue:hover {
+  background: #e1b00f;
+  color: #fff;
+  text-decoration: none;
+}
+.news-row .link-arrow-blue {
+  background-color: #435176;
+  color: #ffffff;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 6px;
+}
+.news-row p {
+  line-height: 1.75;
+}
+.news-row .news-title {
+  text-align: center;
+  font-size: 1.8em;
+  color: #FFFFFF;
+}
+.news-row .media {
+  background-color: #FFFFFF;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.news-row .media .media-left {
+  width: 75%;
+}
+.news-row .media .media-left-sm {
+  width: 50%;
+}
+.news-row .media .media-body {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style-aw.css.map */

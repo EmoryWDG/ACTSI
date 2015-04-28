@@ -1,0 +1,27 @@
+#footer-hat-top {
+  padding: 23px;
+  background: url("../css/img/halftone.jpg") repeat scroll 0 0 #eeeeee;
+  color: $dark_gray;
+  text-align: center;
+  .btn-container {
+      position: absolute;
+      width: 100%;
+      padding: 0px;
+      bottom: 0;
+      margin-left: -15px;
+      text-align: center;
+      text-transform: uppercase;
+      .btn-default {
+          width: 90%;
+          max-width: 300px;
+      }
+  }
+  .col-sm-6 {
+      border-left: #455284 3px solid;
+      border-right: #455284 3px solid;
+  }
+  .fa-gift {
+    color: #f4bd16;
+}
+}
+

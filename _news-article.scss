@@ -1,41 +1,25 @@
-.news-row {
-  background: url("../img/halftone.jpg") repeat scroll 0 0 #eeeeee;
-  font-family: "lato";
-  font-weight: 200;
-  text-align: left;
-  color: #465482;
-  border-bottom: .5em solid #465482;
-}
 
-.news-row p {
-  line-height: 1.75;
-}
-
-.news-row > .row {
-  border-bottom: .25em solid #f7bc2d;
-  padding-bottom: 30px;
-}
 
 #news-article {
-
+	margin-bottom: 40px;
 	.media-left {
 		.discovery {
 			color: $white;
-  			background-color: $yellow;
-  			padding: 30px;
-  			margin-top: 26px;
+			background-color: $yellow;
+			padding: 30px;
+			margin-top: 26px;
 		}
 		.training {
 			color: $white;
-  			background-color: #455284;
-  			padding: 30px;
-  			margin-top: 26px;
+			background-color: $mid-blue;
+			padding: 30px;
+			margin-top: 26px;
 		}
 		.community {
 			color: $white;
-  			background-color: #455284;
-  			padding: 30px;
-  			margin-top: 26px;
+			background-color: $dark-blue;
+			padding: 30px;
+			margin-top: 26px;
 		}
 	}
 	.media-body {
@@ -43,21 +27,45 @@
 		
 		.figure{
 			float:left;
-			margin: 7px 20px 0 0;
+			margin: 7px 30px 2px 0;
 
 			figcaption {
 				text-align: center;
+				font-size: .8em;
+				font-style: italic;
+				max-width: 400px;
+				margin-top: 5px;
 			}
 		}
 
 		.linktext {
 			font-weight: 400;
 			background-color: orange;
-  			border-radius: 0px;
+			border-radius: 0px;
+		}
+		.video-wrapper {
+			margin-right: 3em;
 		}
 	}
 
 	.link-button {
 
+	}
+}
+
+/* ARTICLE PAGE */
+.news-row {
+	background-color: #eeeeee;
+	font-family: "lato";
+	font-weight: 200;
+	text-align: left;
+	color: #465482;
+	p {
+		line-height: 1.4;
+	}
+	.news-title {
+		text-align: center;
+		font-size: 1.8em;
+		color: #FFFFFF;
 	}
 }

@@ -1,0 +1,37 @@
+/* ----------- CALENDAR ----------- */
+
+.google-calendar {
+  width: 100%;
+}
+
+.ui-rtsr-selected {
+  background-color: #1a8fd9;
+  font-weight: bold;
+  color: #fff;
+}
+
+.ui-rtsr-unselected {
+  background-color: #455284;
+  color: #fff;
+  cursor: pointer;
+}
+
+.view-cap, .view-container-border {
+  background-color: #198fd8;
+  color: #fff;
+}
+
+.mv-daynames-table {
+  background: none repeat scroll 0 0 $light_blue;
+  color: #fff;
+  font-size: 1.2em;
+  left: 0;
+  table-layout: fixed;
+  text-transform: uppercase;
+  top: 0;
+  width: 100%;
+}
+
+.calendar-wrap {
+  margin-bottom: 2em;
+}

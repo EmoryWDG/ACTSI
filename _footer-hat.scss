@@ -1,14 +1,27 @@
 #footer-hat-new {
 	padding: 23px;
 	background-color: $dark-blue;
-  	color: white;
-  	text-align: center;
+	color: $white;
+	text-align: center;
 
 	.footer-row{
 		
 	}
 	.col-sm-6 {
 		border-left: $yellow 3px solid;
-  		border-right: $yellow 3px solid;
+		border-right: $yellow 3px solid;
 	}
+	.footer-logo{
+		padding: 10px;
+		@media screen and (max-width: 768px) {
+			display: inline-block;
+			padding-bottom: 10px;
+		}
+		img {
+			width: auto;
+			max-width: 146px;
+
+		}
+	}
+
 }

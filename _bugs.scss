@@ -1,0 +1,136 @@
+.carousel {
+	margin-top: -49px;
+}
+.hp-news-row {
+	.media {
+		height: 100%;
+		min-height: 270px;
+	}
+	.article_image_container {
+		width: 50%;
+		float: left;
+		margin-right: 10px;
+		height: 100%;
+		overflow: hidden;
+		img {
+			height: 100%;
+			width: auto;
+			min-width: 100%;
+			display: block;
+		}
+	}
+	.article_body_container {
+		padding-right: 10px;
+		.rd-more-btn {
+			position: absolute;
+			bottom: 30px;
+			right: 15px;
+			width: 46%;
+			text-align: right;
+			background-color: white;
+			z-index: 0;
+			padding-right: 5px;
+			a {
+				margin-top: 12px;
+			}
+		}
+		h4 {
+			line-height: 1.5em;
+			font-size: 1em;
+		}
+	}
+	.featured_article {
+		.article_image_container {
+			width: 75%;
+			img {
+				width: 100%;
+			}
+		}
+		.article_body_container {
+			.rd-more-btn {
+				width: 23%;
+
+			}
+
+		}
+	}
+	
+}
+footer {
+	.footer-logo {
+		a {
+			text-decoration: none;
+		}
+		p.logo_caption {
+			font-size: .8em;
+			color: $white;
+		}
+	}
+}
+
+@media only screen and (max-width : 991px) {
+	.hp-news-row {
+		.media {
+			padding: 1em;
+			max-height: none;
+			min-height: 0;
+			border: solid 1px #FFF;
+			.category {
+				margin: -1em -1em 0 -1em;
+				text-align: right;
+				color: white;
+				text-transform: uppercase;
+				padding: .1em .5em .3em;
+			}
+		}
+		.featured_article {
+			.article_body_container {
+				padding-right: 0;
+				.rd-more-btn {
+					width: 100%;
+				}
+			}
+		}
+		.article_body_container {
+			padding-right: 0;
+			.rd-more-btn {
+				position: relative;
+				width: 100%;
+				bottom: 0px;
+				right: 0px;
+				.learn-more-blue {
+					width: 100%;
+				}
+			}
+		}
+
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	#footer-hat-top {
+		.col-sm-6 {
+			border-top: 3px solid $dark_blue;
+			border-bottom: 3px solid $dark_blue;
+			border-left: none !important;
+			border-right: none !important;
+		}
+	}
+	#footer-hat-new {
+		.col-sm-6 {
+			border-top: 3px solid $yellow;
+			border-bottom: 3px solid $yellow;
+			border-left: none !important;
+			border-right: none !important;
+		}
+	}
+	.two-column ul.future-events-list, .three-column ul.future-events-list{
+		moz-column-count: 1;
+		-moz-column-gap: 20px;
+		-webkit-column-count: 1;
+		-webkit-column-gap: 20px;
+		column-count: 1;
+		column-gap: 20px;
+	}
+	
+}

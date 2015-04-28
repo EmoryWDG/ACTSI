@@ -1,0 +1,50 @@
+.white_bg {
+	background-color: $white;
+}
+ul#showdata {
+	padding-left: 0px;
+	min-height: 600px;
+	a{
+		color: $dark_blue;
+		&:nth-child(odd) {
+			li {
+				background-color: $light_gray;
+			}
+		}
+		li {
+			list-style: none;
+			padding: .5em 1em;
+		}
+		&:hover {
+			text-decoration: none;
+			li {
+				background-color: #ddd;
+			}
+		}
+	}
+	
+}
+.fa-spin-custom, .glyphicon-spin {
+	-webkit-animation: spin 1000ms infinite linear;
+	animation: spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+@keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}

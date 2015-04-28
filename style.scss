@@ -1,37 +1,157 @@
 $yellow: #f4bd16;
 $dark_yellow: #c29306;
 $dark_blue: #455284;
-$mid_blue: #455284;
+$mid_blue: #21a3dd;
 $light_blue: #21a4dd;
 $light_gray: #f1f1f1;
+$mid_gray: #CCCCCC;
 $dark_gray: #222222;
 $white: #FFFFFF;
 $border: solid 1px $light_gray;
+$font-stack: 'Lato', sans-serif !important;
 
 body {
-	font-family: 'Lato', sans-serif !important;
+	font-family: $font-stack;
 	font-size: 16px;
+	overflow-x: hidden;
 }
 main {
-	background-color: $light_gray;
+	background-color: $white;
+}
+h2 {
+	line-height: 1.25em;
+}
+.yellow {
+	background-color: $yellow;
+	h1, h2, h3, h4, h5, h5 {
+		color: $white;
+	}
+}
+.dark-blue {
+	background-color: $dark-blue;
+	h1, h2, h3, h4, h5, h5 {
+		color: $white;
+	}
+}
+.light_blue {
+	background-color: $light_blue;
+	h1, h2, h3, h4, h5, h5 {
+		color: $white;
+	}
+}
+.half-tone {
+	background: url("../css/img/halftone.jpg") repeat scroll 0 0 $light_gray;
 }
 
+.btn {
+	border-radius: 0;
+	padding: .75em;
+	min-width: 200px;
+	text-transform: uppercase;
+	&:hover {
+		text-decoration: none;
+	}
+}
 .btn-primary {
 	background-color: $dark_blue;
 	color: $white;
+	&:hover {
+		background-color: $mid_blue;
+	}
 }
 .btn-secondary {
 	background-color: $yellow;
 	color: $white;
+	&:hover {
+		background-color: $dark_yellow;
+	}
 }
 .btn-tertiary {
 	background-color: $light_gray;
 	color: $dark_gray;
+	&:hover {
+		background-color: $dark_gray;
+		color: $light_gray;
+	}
 }
-
+.btn-white {
+	background-color: $white;
+	color: $dark_gray;
+	&:hover {
+		background-color: $light_gray;
+	}
+}
+.heading_center {
+	text-align: center;
+}
+.heading_right {
+	text-align: right;
+}
+.discovery {
+	background-color: $yellow;
+}
+.community {
+	background-color: $dark_blue;
+}
+.training {
+	background-color: $light_blue;
+}
+.page-element { 
+	&:last-child {
+		margin-bottom: 2em;
+		.col-xs-12 {
+			margin-bottom: 2em;
+		}
+	}
+	.img-responsive {
+		width: 100%;
+	}
+	figcaption.image-caption {
+		font-size: 12px;
+		text-align: center;
+		color: #222;
+		font-weight: 200;
+	}
+	table {
+		td {
+			border: solid 1px $mid_gray;
+			padding: .5em;
+		}
+	}
+}
+.footer_address {
+	background-color: #131F4D;
+	color: $white;
+	line-height: 2em;
+	a {
+		color: $white;
+	}
+}
+form .robotic {
+	display: none;
+}
 @import 'navigation';
 @import 'breadcrumbs';
+@import 'header';
+@import 'homepage-news-article';
+@import 'calendar';
+@import 'list-table';
 @import 'carousel';
 @import 'search-results';
 @import 'people';
 @import 'news-article';
+@import 'footer-hat';
+@import 'footer-hat-top';
+@import 'special-opportunities';
+@import 'trans-row';
+@import 'emphasis-block';
+@import 'partners';
+@import 'buttons';
+@import 'header';
+@import 'interior';
+@import 'pubmed';
+@import 'community-home';
+@import 'sub-navigation';
+@import 'events';
+@import 'archives';
+@import 'bugs';
