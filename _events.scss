@@ -1,0 +1,125 @@
+// .hp-events {
+// 	background-color: $light_blue;
+// 	padding-bottom: 1em;
+// 	h2 {
+// 		color: $white;
+// 		text-transform: uppercase;
+// 	}
+// 	.calendar-icon {
+// 		background: none repeat scroll 0 0 $dark_blue;
+// 		color: $white;
+// 	}
+// 	.event-title {
+// 		a {
+// 			color: $white;
+// 		}
+// 	}
+// 	.btn {
+// 		display: block;
+// 		width: 50%;
+// 		margin-left: auto;
+// 		margin-right: auto;
+// 	}
+// }
+
+.events {
+	&.btn {
+		padding: 1em;
+		border: none;
+		border-radius: 0;
+		margin: 1em auto;
+		width: 100%;
+		font-size: 1em;
+		a {
+			color: $dark_gray;
+		}
+	}
+
+	ul.future-events-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			display: table;
+			padding: 5px 0;
+			width: 100%;
+			.calendar-icon {
+				display: table-cell;
+				font-size: .8em;
+				margin-bottom: 0.5em;
+				margin-right: 0.5em;
+				padding: .5em;
+				text-align: center;
+				width: 15%;
+				min-height: 82px;
+				min-width: 60px;
+				background: none repeat scroll 0 0 $white;
+				color: $dark_gray;
+
+				.day {
+					font-weight: 700;
+				}
+				.fa {
+					font-size: 1.5em;
+					text-align: center;
+					padding: .5em 0.1em;
+				}
+			}
+			.event-title {
+				display: table-cell;
+				padding-left: 15px;
+				a {
+					color: $dark_gray;
+				}
+			}
+		}
+
+	}
+
+	.two-column {
+		ul.future-events-list {
+			-moz-column-count: 2;
+			-moz-column-gap: 20px;
+			-webkit-column-count: 2;
+			-webkit-column-gap: 20px;
+			column-count: 2;
+			column-gap: 20px;
+			.event-title {
+				margin-top: -35px;
+			}
+			@media screen and (max-width: 768px) {
+				-moz-column-count: 1;
+				-moz-column-gap: 20px;
+				-webkit-column-count: 1;
+				-webkit-column-gap: 20px;
+				column-count: 1;
+				column-gap: 20px;
+			}
+		}
+
+	}
+
+	.three-column {
+		ul.future-events-list {
+			-moz-column-count: 3;
+			-moz-column-gap: 20px;
+			-webkit-column-count: 3;
+			-webkit-column-gap: 20px;
+			column-count: 3;
+			column-gap: 20px;
+			.event-title {
+				margin-top: -35px;
+			}
+			@media screen and (max-width: 768px) {
+				-moz-column-count: 1;
+				-moz-column-gap: 20px;
+				-webkit-column-count: 1;
+				-webkit-column-gap: 20px;
+				column-count: 1;
+				column-gap: 20px;
+			}
+		}
+
+	}
+}
+

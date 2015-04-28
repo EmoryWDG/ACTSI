@@ -1,0 +1,40 @@
+.emphasis_block {
+	background-color: $light_gray;
+	padding: 0;
+	line-height: 1.75em;
+	margin: 0 0 1em 2em;
+	.emphasis_header {
+		padding: .8em;
+		width: 100%;
+		margin: 0;
+		color: $white;
+		&.default {
+			background-color: $dark_gray;
+		}
+	}
+	.emphasis_content {
+		padding: .8em;
+		color: $dark_gray;
+		a {
+			color: $dark_gray;
+		}
+		ul {
+			margin: 0;
+			padding: 0 1em;
+			li {
+				padding: .3em 0;
+				border-bottom: solid 1px #CCC;
+				&:last-child {
+					border-bottom: 0;
+				}
+			}
+			&.plain {
+				list-style: none;
+			}
+		}
+		ol {
+			margin: 0;
+			padding: 0 1em;
+		}
+	}
+}

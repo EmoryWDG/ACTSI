@@ -9,6 +9,11 @@
 			display: inline-block;
 			list-style: none;
 			color: $dark_blue;
+			&:last-child {
+				.divider {
+					display: none;
+				}
+			}
 			a {
 				color: $dark_gray;
 			}

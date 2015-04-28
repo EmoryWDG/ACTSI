@@ -1,0 +1,63 @@
+.sub-navigation {
+	position: relative;
+	z-index: 1;
+	ul {
+		padding-top: 10px;
+		text-transform: uppercase;
+		padding-left: 0;
+		margin-left: -15px;
+		li {
+			display: inline-block;
+			list-style: none;
+			border-right: solid 1px $white;
+			padding: 0 10px;
+			font-weight: 300;
+			&:first-child {
+				padding: 0 10px 0 0;
+			}
+			&:last-child {
+				border-right: none;
+				padding: 0 0px 0 10px;
+			}
+			&.current {
+				font-weight: 400;
+			}
+			a:hover {
+				text-decoration: none;
+			}
+		}
+	}
+	
+	&.community {
+		min-height: 0px !important;
+		margin-bottom: 0;
+		height: 6px;
+		ul li {
+			display: none;
+		}
+		
+	}
+
+	&.training {
+		min-height: 0px !important;
+		margin-bottom: 0;
+		height: 6px;
+		ul li {
+			display: none;
+		}
+	}
+	&.discovery {
+		min-height: 0px !important;
+		margin-bottom: 0;
+		height: 6px;
+		ul li {
+			display: none;
+		}
+	}
+	&.default {
+		background-color: $dark_gray;
+		a {
+			color: $white;
+		}
+	}
+}
