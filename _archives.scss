@@ -1,0 +1,44 @@
+.newsletter_archive {
+	
+	ul {
+
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		a {
+			&:hover {
+				text-decoration: none;
+				li {
+					background-color: #F0F0F0;
+				}
+			}
+			li {
+				border-bottom: solid 1px $dark_gray;
+				padding: 10px 0px;
+				color: $dark_gray;
+				.newsletter-image {
+					display: table-cell;
+					width: 30%;
+					img {
+						width: 100%;
+						padding-right: 10px;
+					}
+				}
+				.newsletter-information {
+					display: table-cell;
+					.newsletter-date {
+						width: 100%;
+						font-size: 1.5em;
+					}
+				}
+			}
+			&:last-child {
+				li {
+					border-bottom: none;
+				}
+			}
+		}
+		
+	}
+}

@@ -1,0 +1,187 @@
+header {
+	ul {
+		&.icon-button {
+			list-style: none;
+			margin-bottom: 0;
+			li {
+				display: inline-block;
+				width: 140px;
+				margin-right: 0px;
+				.icon {
+					height: 40px;
+					color: white;
+				}
+				.words {
+					color: white;
+				}
+				.fa {
+					font-size: 2em;
+				}
+				&.header-icon-button {
+					text-align: center;
+					padding: 1em;
+				}
+				.header-button {
+					width: 100%;
+					&:hover {
+						opacity: 0.95;
+						color: #fff;
+						text-decoration: none;
+					}
+				}
+
+			}
+		}
+	}
+	.logo {
+		figure {
+			padding-top: 1em;
+		}
+	}
+    .resource-dropdown {
+        position: absolute;
+        z-index: 100;
+        border-top: solid 3px #FFF;
+        width: 100%;
+        max-width: 1125px;
+        padding-top: .5em;
+        display: none;
+        top: 116px;
+        left: -16px;
+        margin-left: -365px;
+        min-width: 1125px;
+        .split-list ul {
+          float: left;
+          list-style: none;
+          padding-left: 0px;
+          width: 33%;
+          li {
+              line-height: 1.5em;
+              padding: .3em 0em .3em 0;
+              width: 94%;
+              text-align: left;
+              font-weight: 300;
+              a {
+                color: $white;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+
+    }
+
+
+    &.community .split-list {
+        background-color: $dark_blue;
+        ul li {
+            border-bottom: solid 1px $mid_blue;
+            
+            &:last-child {
+                border-bottom: none;
+            }
+
+        }
+    } 
+    &.training .split-list {
+        background-color: $light_blue;
+        ul li {
+            border-bottom: solid 1px $dark_blue;
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+    &.discovery .split-list {
+        background-color: $yellow;
+        ul li {
+          border-bottom: solid 1px $dark_yellow;
+
+          &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+}
+
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    	header {
+    		.logo {
+    			figure {
+    				img {
+    					width: 100%;
+    					max-width: 300px;
+    				}
+    			}
+    		}
+    		
+    		ul {
+    			&.icon-button {
+    				li {
+    					width: 130px;
+    				}
+    			}
+    		}
+    	}
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    	header {
+    		.logo {
+    			&.container {
+    				margin-left: -15px;
+    				margin-right: -15px;
+    				padding: 0px;
+    			}
+    			figure {
+    				text-align: center;
+    				margin-bottom: 1em;
+    			}
+    		}
+    		
+    		ul {
+    			&.icon-button {
+    				padding-left: 0;
+    				li {
+    					.icon {
+    						display: inline-block;
+    						padding-right: 1em;
+    					}
+    					&.header-icon-button {
+    						width: 100%;
+    					}
+    				}
+    			}
+    		}
+    	}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
+
+
+    

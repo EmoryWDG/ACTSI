@@ -1,68 +1,72 @@
 /* ----------- TRANSLATIONAL SCIENCE ROW ----------- */
 
 .trans-row {
-  background: url("../img/halftone.jpg") repeat scroll 0 0 #eeeeee;
-  font-family: "lato";
+  background: url("../css/img/halftone.jpg") repeat scroll 0 0 #eeeeee;
+  font-family: $font-stack;
   font-weight: 100;
   text-align: center;
-  color: #465482;
-  border-bottom: .5em solid #465482;
+  color: $dark_blue;
+  p {
+    line-height: 1.75;
+  }
+  > .row {
+    border-bottom: .25em solid $yellow;
+  }
 }
 
-.trans-row p {
-  line-height: 1.75;
-}
-
-.trans-row > .row {
-  border-bottom: .25em solid #f7bc2d;
-}
-
-.t-box > h3, .t-bold {
+.t-box > a > h3, .t-bold {
   font-weight: 700;
 }
 
 .t-box {
-  border-right: 2px solid #465482;
+  border-right: 2px solid $dark_blue;
   margin-bottom: 1em;
-}
-
-.t-box:last-child {
-  border-right: none;
-}
-
-.t-box > p {
-  font-size: 1.25em;
-}
-
-.t-box > img {
-  max-height: 10em;
-  display: inline-block;
-  vertical-align: middle;
+  > a {
+    display: block;
+    padding: 1em;
+    color: $dark_blue;
+    &:hover {
+      text-decoration: none;
+      color: $dark_blue;
+      background: rgba(255, 255, 255, 0.5);
+    }
+  }
+  &:last-child {
+    border-right: none;
+  }
+  > a > {
+    p {
+      font-size: 1.25em;
+    }
+    img {
+      max-height: 10em;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
 }
 
 
 /* ----------- MEDIA QUERIES ----------- */
 
-@media screen and (max-width: 900px) {
-.t-box {
-  border-right: none;
-}
-
-.t-box:last-child {
-  border-right: none;
-}
+@media screen and (max-width: 991px) {
+  .t-box {
+    border-right: none;
+    &:last-child {
+      border-right: none;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
 
   .t-box {
-  border-right: none;
-  border-bottom: 2px solid #465482;
-  padding-bottom: 1em
-}
-
-.t-box:last-child {
-  border-right: none;
-  border-bottom: none;
-}
+    border-right: none;
+    border-bottom: 2px solid $dark_blue;
+    padding-bottom: 1em;
+    &:last-child {
+      border-right: none;
+      border-bottom: none;
+    }
+  }
 }

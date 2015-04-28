@@ -1,0 +1,79 @@
+
+#funding-opportunities {
+	.media-left {
+		.discovery {
+			color: $white;
+  			background-color: $yellow;
+  			padding: 30px;
+  			margin-top: 26px;
+		}
+		.training {
+			color: $white;
+  			background-color: $mid-blue;
+  			padding: 30px;
+  			margin-top: 26px;
+		}
+		.community {
+			color: $white;
+  			background-color: $dark-blue;
+  			padding: 30px;
+  			margin-top: 26px;
+		}
+	}
+	.media-body {
+		.discovery {
+			.learn-more{
+				background: none repeat scroll 0 0 $yellow;
+				color: $white;
+				display: inline-block;
+				margin-top: 1em;
+				overflow: hidden;
+				padding-left: 10px;
+				text-shadow: none;
+				.link-arrow{
+					background: rgba(0, 0, 0, 0.25);
+					color: #f0be0f;
+					display: inline-block;
+					margin-left: 5px;
+					padding: 6px;
+				}
+			}
+		}
+		.training {
+			.learn-more{
+				background: none repeat scroll 0 0 $mid-blue;
+				color: $white;
+				display: inline-block;
+				margin-top: 1em;
+				overflow: hidden;
+				padding-left: 10px;
+				text-shadow: none;
+				.link-arrow{
+					background: rgba(0, 0, 0, 0.25);
+					color: $white;
+					display: inline-block;
+					margin-left: 5px;
+					padding: 6px;
+				}
+			}
+		}
+		.community {
+			.learn-more{
+				background: none repeat scroll 0 0 $dark-blue;
+				color: $white;
+				display: inline-block;
+				margin-top: 1em;
+				overflow: hidden;
+				padding-left: 10px;
+				text-shadow: none;
+				.link-arrow{
+					background: rgba(0, 0, 0, 0.25);
+					color: $white;
+					display: inline-block;
+					margin-left: 5px;
+					padding: 6px;
+				}
+			}
+		}
+	}
+}

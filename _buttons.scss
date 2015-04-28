@@ -1,80 +1,110 @@
-/* ----------- ICON BUTTON ROW ----------- */
-
-.button-row
-{
-    width: 100%;
-    background-color: #000000;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.button-row li {
-  float: left;
-  margin: 0;
-  padding: 1em 0;
-  text-align: center;
-}
-
-.button-link {
-  color: #fff;
-  display: inline-block;
-  margin: auto;
-  text-align: center;
-  width: 96%;
-  padding: 1em;
-  text-decoration: none;
-}
-
-.discovery-button {
-  background-color: #f4bd16;
-}
-.training-button {
-  background-color: #178fd8;
-}
-.community-button {
-  background-color: #455284;
-}
-
-.fullwidth {
-    width: 100% !important;
-}
-
-.button-link:hover {
-  opacity: 0.95;
-  color: #fff;
-  text-decoration: none;
-}
-
-.button-row > li:first-child > .button-link {
-  width: 99%;
-  float: left;
-}
-
-.button-row > li:last-child > .button-link {
-    width: 99%;
-  float: right;
-}
-
-.button-row > li:only-child > .button-link {
+.button-row {
   width: 100%;
-}
+  background-color: $white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  &:first-child {
+    padding-top: 1em;
+  }
+  &:last-child li {
+    margin-bottom: .5em;
+  }
+  li {
+    float: left;
+    margin: 0;
+    padding: 1em 0px;
+    text-align: center;
+    margin: -.75em 0px;
+    .button-link {
+      color: #fff;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      width: 96%;
+      padding: .5em;
+      text-decoration: none;
+      .icon {
+        > {
+          .fa {
+            font-size: 3.3em;
+          }
+          img {
+            display: inline-block;
+            max-height: 90%;
+            max-width: 100%;
+          }
+        }
+        display: block;
+        height: 60px;
+      }
+      .words {
+        font-size: 0.9em;
+        text-transform: uppercase;
+      }
+    }
+    .discovery-button {
+      background-color: $yellow;
+    }
+    .training-button {
+      background-color: $light_blue;
+    }
+    .community-button {
+      background-color: $dark_blue;
+    }
+  }
+  .fullwidth {
+    width: 100% !important;
+  }
 
-.icon > .fa {
-  font-size: 4em;
+  .button-link:hover {
+    opacity: 0.95;
+    color: #fff;
+    text-decoration: none;
+  }
+  > li {
+    &:first-child > .button-link {
+      width: 99%;
+      float: left;
+    }
+    &:last-child > .button-link {
+      width: 99%;
+      float: right;
+    }
+    &:only-child > .button-link {
+      width: 100%;
+    }
+  }
 }
+.header-icon-button {
+  &.discovery-button {
+    background-color: $yellow;
+  }
+  &.training-button {
+    background-color: $light_blue;
+  }
+  &.community-button {
+    background-color: $dark_blue;
+  }
+  .icon > .fa {
+    font-size: 2em;
+  }
 
-.icon {
-  display: block;
-  height: 60px;
-}
+  .icon {
+    display: block;
+    height: 60px;
+    margin-bottom: .4em;
+  }
 
-.icon > img {
-  display: inline-block;
-  max-height: 90%;
-}
+  .icon > img {
+    display: inline-block;
+    max-height: 90%;
+    max-width: 100%;
+  }
 
-.words {
-  font-size: 0.9em;
-  text-transform: uppercase;
+  .words {
+    font-size: 0.9em;
+    text-transform: uppercase;
+  }
+
 }
